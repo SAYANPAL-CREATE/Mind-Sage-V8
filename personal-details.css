@@ -1,0 +1,21 @@
+/* Personal information fields use the established sage-and-cream visual language. */
+.identity-intro{margin:4px 0 20px;padding:22px 23px;border-radius:19px;background:linear-gradient(115deg,#eef4e9,#faf8ee);border:1px solid #dfe9de;color:#1c5148}
+.identity-step{display:block;font-size:11px;letter-spacing:1.65px;text-transform:uppercase;font-weight:800;color:#53816a}
+.identity-intro h3{font-family:Manrope,'DM Sans',sans-serif;font-size:20px;margin:9px 0 7px;color:#194a42;letter-spacing:-.5px}
+.identity-intro p{font-size:12px;line-height:1.8;color:#69847a;margin:0}
+.identity-full-name,.identity-guardian-name{display:flex;margin-bottom:17px}
+.identity-extras{margin-top:19px;margin-bottom:16px}
+.identity-age-note{font-size:13px;margin:4px 0 18px;color:#557d6a;padding:11px 15px;border-left:3px solid #75a18b;background:#f2f8f1;border-radius:8px}
+.identity-age-note strong{color:#1b564a}
+.identity-report-panel{margin:22px 0;padding:25px 29px!important;border:1px solid #e4ebe2;border-radius:19px}
+.identity-report-heading{display:flex;gap:15px;justify-content:space-between;align-items:center;margin-bottom:16px}
+.identity-report-heading h2{margin:4px 0 0;font-size:22px;letter-spacing:-.7px}
+.identity-edit{font-size:12px;font-weight:800;color:#387c68;white-space:nowrap;text-decoration:underline;text-underline-offset:4px}
+.identity-report-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px 22px}
+.identity-report-field{min-width:0;padding:12px 14px;background:#f7faf5;border:1px solid #e5eee4;border-radius:13px;overflow-wrap:anywhere}
+.identity-report-field span{display:block;font-size:10px;font-weight:800;letter-spacing:.5px;color:#718a80;margin-bottom:5px}
+.identity-report-field strong{font-size:14px;font-weight:700;color:#224b43}
+.identity-report-privacy{font-size:11px;line-height:1.75;color:#82938a;margin:16px 0 0}
+@media(max-width:800px){.identity-report-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:540px){.identity-report-panel{padding:19px 15px!important}.identity-report-heading h2{font-size:19px}.identity-report-grid{grid-template-columns:minmax(0,1fr)}.identity-edit{font-size:11px}}
+@media print{.identity-edit{display:none!important}.identity-report-panel{break-inside:avoid!important}}
